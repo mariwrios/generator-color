@@ -16,6 +16,6 @@ Se genera un color al azar con forme se preciona el boton.
 
 ¡Y esta listo! Espero les guste y que tengan un lindo día.
 
-#### Getting Started with Create React App
+##### Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fué creado con [Create React App](https://github.com/facebook/create-react-app).
