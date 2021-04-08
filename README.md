@@ -6,10 +6,6 @@ Es un pequeño ejercicio del funcionamiento del useState con react.js
 
 Se genera un color al azar con forme se preciona el boton.
 
-## Puedes ver el ejercicio en:
-
-https://mariwrios.github.io/generator-color/
-
 ## Instrucciones:
 
 - Clonas o descargas el repositorio.
