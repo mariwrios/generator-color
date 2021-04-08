@@ -1,17 +1,19 @@
-language: node_js
-node_js:
-  - "stable"
-cache:
-  directories:
-    - node_modules
-script:
-  - npm test
-  - npm run build
-
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GENERATOR_COLOR
-  local_dir: build
-  on:
-    branch: master
+{
+  "language": "node_js",
+  "os": ["linux"],
+  "dist": "xenial",
+  "node_js": ["stable"],
+  "cache": { "directories": ["node_modules"] },
+  "script": ["npm test", "npm run build"],
+  "deploy":
+    [
+      {
+        "provider": "pages",
+        "strategy": "git",
+        "skip_cleanup": true,
+        "local_dir": "build",
+        "on": { "branch": ["master"] },
+        "token": "$GENERATOR_COLOR",
+      },
+    ],
+}
