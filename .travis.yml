@@ -1,7 +1,7 @@
 {
   "language": "node_js",
   "os": ["linux"],
-  "dist": "xenial",
+  "dist": "src",
   "node_js": ["stable"],
   "cache": { "directories": ["node_modules"] },
   "script": ["npm run build"],
