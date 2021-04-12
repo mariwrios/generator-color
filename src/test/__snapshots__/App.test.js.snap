@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` should  1`] = `
+<div
+  className="container-card "
+>
+  <div
+    style={
+      Object {
+        "background": "#",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "height": "23vh",
+        "width": 250,
+      }
+    }
+  />
+  <button
+    onClick={[Function]}
+  >
+    click me
+  </button>
+  <p>
+    #
+  </p>
+</div>
+`;
+
+exports[`Probando <App/> should  1`] = `
+<div
+  className="container-card "
+>
+  <div
+    style={
+      Object {
+        "background": "#",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "height": "23vh",
+        "width": 250,
+      }
+    }
+  />
+  <button
+    onClick={[Function]}
+  >
+    click me
+  </button>
+  <p>
+    #
+  </p>
+</div>
+`;
